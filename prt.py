@@ -1,16 +1,16 @@
 print("=== Stock Portfolio Tracker ===")
 
 stocks = {
-    "TATA": 150,
-    "RELIANCE": 280,
-    "INFOSYS": 180,
-    "WIPRO": 120
+    "AAPL": 180,
+    "TSLA": 250,
+    "GOOGL": 150,
+    "MSFT": 300
 }
 
 total = 0
 
 while True:
-    stock = input("Enter stock name (TATA, RELIANCE, INFOSYS, WIPRO) or DONE to finish: ").upper()
+    stock = input("Enter stock name (AAPL, TSLA, GOOGL, MSFT) or DONE to finish: ").upper()
 
     if stock == "DONE":
         break
